@@ -1,4 +1,5 @@
-/* Variables de temas */
+@tailwind utilities;
+
 :root {
   /* Tema claro (predeterminado) */
   --bg-primary: #ffffff;

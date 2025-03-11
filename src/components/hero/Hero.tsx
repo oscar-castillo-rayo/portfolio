@@ -18,12 +18,12 @@ const Hero = () => {
             Contact me
           </a>
         </div>
-        {/* <div className="hero-image">
+        <div className="hero-image">
           <div className="background">
             <div className="gradient-decoration decoration-1"></div>
             <div className="gradient-decoration decoration-2"></div>
           </div>
-        </div> */}
+        </div>
       </div>
     </section>
   );
