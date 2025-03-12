@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { About, Contact, Footer, Header, Hero, Projects, Skills } from ".";
 import "../index.css";
+import "./Portfolio.css";
 
 function Portfolio() {
   const [darkMode, setDarkMode] = useState(false);
@@ -31,6 +32,10 @@ function Portfolio() {
       <Skills />
       <Contact />
       <Footer />
+      <div className="background">
+        <div className="gradient-decoration decoration-1"></div>
+        <div className="gradient-decoration decoration-2"></div>
+      </div>
     </div>
   );
 }
